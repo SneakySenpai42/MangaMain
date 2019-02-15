@@ -1,0 +1,341 @@
+body{
+    margin: 0 auto;
+    /*background-color: #f5A200;*/
+    width: 100%;
+}
+
+/********Start of Nav*********/
+
+.nav-bar{ 
+    height: 70px;
+    width: 100%;
+    background-color: #00A6FF;
+    position: absolute;
+    top: 0;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+}
+
+.nav-list{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.list-item{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    background-color: #FF9C00;
+    height: 35px;
+    width: 60px;
+    border: 3px solid #FFFFFF;
+    border-style: ridge;
+    padding-top: 5px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.list-item:hover{
+    background: white;
+}
+
+.anchor{
+    margin-top: 8px;
+    margin-left: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.anchor:hover{
+    color: #990000;
+    border: 3px;
+}
+
+/************End of Nav********/
+
+/********Start of Section*****/
+
+.hero {
+    background-image:url('../images/overwatchbanner.jpg');
+    height: 540px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.hero-background{
+    position: absolute;
+    bottom: 400px;
+    left: 60%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    opacity: 0.3;
+    border: 3px solid #252525;
+    border-radius: 10px;
+}
+
+.hero-text {
+    color: #ff000;
+}
+
+.hero-background:hover {
+    opacity: 1;
+    
+}
+
+.hero-text {
+    /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+    /*color: #ff000;*/
+    /*font-size: 20px;*/
+}
+
+/************End of Selection*******/
+
+/*******Start of Main**************/
+
+.main{
+    height: 600px;
+    width: 100%;
+}
+
+.main-a {
+    height: 0px;
+    width: 100%;
+}
+
+.box {
+    height: 450px;
+    width: 45%;
+    border: 3px solid #FF9C00;
+    float: left;
+    margin: 75px 25px 25px 25px;
+}
+
+.box-overart {
+    height: 450px;
+    width: 45%;
+    border: 3px solid #FF9C00;
+    float: left;
+    margin: 75px 25px 25px 25px
+}
+
+.divover {
+    height: 473px;
+    width: 90%;
+    opacity: 0.5;
+}
+
+.divover:hover {
+    opacity: 1;
+}
+
+.main-p{
+    text-align: justify;
+    padding: 25px;
+}
+
+/****End of Main***************/
+
+/**********Start of Footer**********/
+
+
+.footer {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: #347C98;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-col {
+    height: 100px;
+    width: 19%;
+    float: left;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 14px 80px;
+    margin: 10px 15px 10px 15px;
+    cursor: pointer; 
+    color: #fff;
+    background-color: #00A6FF;
+    font-size: 1.5rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 1px solid #1a0a00;
+    box-shadow: 2px 2px 5px #AFE9FF;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    text-align: center;
+}
+
+p{
+    display: inline;
+    position: relative;
+    font-size: 12px;
+    
+}
+
+.footer-col hover {
+    color: #006398;
+    border: 1px solid #006398;
+    box-shadow: 2px 2px 20px #AFE9FF;
+    clear: both;
+}
+
+.footer-buttons, .social, .copyright, .label, .input, .buttons {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.7em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.label {
+    margin-bottom: 3px;
+}
+
+.input {
+    height: 30px;
+    width: 170px;
+    border-color: #252525;
+    /*display: inline;*/
+    position: relative;
+    border: 3px solid;
+    text-align: center;
+}
+
+.buttons{
+    border-radius: 9px;
+    background-color: #E0E7E9;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.buttons:hover {
+    background: #F49E07;
+}
+
+.buttons:active {
+    background-color: white;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+}
+
+
+.fab {
+    font-size: 2em;
+    margin-top: 18px;
+    margin-left: 70px:;
+}
+
+.fa-facebook-square {
+    color: #4267b2;
+}
+.fa-instagram {
+    color: #231F20;
+}
+
+/*************End of Footer*********/
+
+/******Start of About CSS***********/
+
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.column {
+    height: 650px;
+    width: 30%;
+    border: 3px solid #252525;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding: 9px;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-align: justify;
+}
+
+.calvery, .mcree, .audios, .youover{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.mcree {
+    margin-bottom: 70px;
+    padding: 136px 0px 0px 0px;
+}
+
+.audios {
+    margin-bottom: 166px;
+    padding: 168px 0px 0px 0px;
+}
+
+.youover {
+    margin-bottom: 64px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+/*****Contact Html************/
+
+.sombra {
+    width: 25%;
+    height: 170px;
+    margin: 100px 0px 0px 0px;
+}
+
+
+
+
+/*******Start of Contact CSS***********/
+
+.contact-container {
+    width: 100%;
+    height: 700px;
+    margin: 75px 0px 0px 15px;
+    position: relative;
+
+}
+
+.contact-col {
+    width: 48%;
+    border: 3px solid #252525;
+    position: relative;
+    margin-left: 15px;
+}
+
+.map {
+    position: absolute;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 115px;
+}
+
+.form {
+    position: absolute;
+    left: 48%;
+}
+
+
+
+
+
+
+
